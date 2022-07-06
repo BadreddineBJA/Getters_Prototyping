@@ -4,3 +4,4 @@
 
 - entry point: index.ts.
 - mock data source (data.json file).
+- the result output is displayed in the right console window.
