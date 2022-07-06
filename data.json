@@ -1,0 +1,629 @@
+{
+  "resources": {
+    "crc": {
+      "infos": { "init_type": "enabled", "label": "ppp_label" },
+      "services": [],
+      "irq": "disabled",
+      "configs": [
+        {
+          "cfg_name": "cfg1",
+          "CRC_InitTypeDef": {
+            "DefaultPolynomialUse": false,
+            "DefaultInitValueUse": false,
+            "CRC_Polynomial": { "value": "0xFFFF", "size": 16 },
+            "InputDataFormat": "CRC_INPUTDATA_FORMAT_WORDS",
+            "InputDataInversionMode": "CRC_INPUTDATA_INVERSION_WORD",
+            "OutputDataInversionMode": true
+          },
+          "services": []
+        },
+        {
+          "cfg_name": "cfg2",
+          "CRC_InitTypeDef": {
+            "DefaultPolynomialUse": true,
+            "DefaultInitValueUse": false,
+            "InputDataFormat": "CRC_INPUTDATA_FORMAT_BYTES",
+            "InitValue": 2147483647,
+            "InputDataInversionMode": "CRC_INPUTDATA_INVERSION_HALFWORD",
+            "OutputDataInversionMode": false
+          },
+          "services": []
+        },
+        {
+          "cfg_name": "cfg3",
+          "CRC_InitTypeDef": {
+            "DefaultPolynomialUse": true,
+            "DefaultInitValueUse": false,
+            "CRC_Polynomial": { "value": "0xFFFFFFFF", "size": 32 },
+            "InputDataFormat": "CRC_INPUTDATA_FORMAT_HALFWORDS",
+            "InitValue": 4294967295,
+            "InputDataInversionMode": "CRC_INPUTDATA_INVERSION_BYTE",
+            "OutputDataInversionMode": true
+          },
+          "services": []
+        },
+        {
+          "cfg_name": "cfg4",
+          "CRC_InitTypeDef": {
+            "DefaultPolynomialUse": false,
+            "DefaultInitValueUse": false,
+            "InputDataFormat": "CRC_INPUTDATA_FORMAT_BYTES",
+            "InitValue": 0,
+            "InputDataInversionMode": "CRC_INPUTDATA_INVERSION_NONE",
+            "OutputDataInversionMode": true
+          },
+          "services": []
+        },
+        {
+          "cfg_name": "cfg5",
+          "CRC_InitTypeDef": {
+            "DefaultPolynomialUse": false,
+            "DefaultInitValueUse": false,
+            "InputDataFormat": "CRC_INPUTDATA_FORMAT_HALFWORDS",
+            "InitValue": 4294967295,
+            "InputDataInversionMode": "CRC_INPUTDATA_INVERSION_WORD",
+            "OutputDataInversionMode": false
+          },
+          "services": []
+        },
+        {
+          "cfg_name": "cfg6",
+          "CRC_InitTypeDef": {
+            "DefaultPolynomialUse": true,
+            "DefaultInitValueUse": true,
+            "CRC_Polynomial": { "value": "0x7F", "size": 7 },
+            "InputDataFormat": "CRC_INPUTDATA_FORMAT_WORDS",
+            "InputDataInversionMode": "CRC_INPUTDATA_INVERSION_BYTE",
+            "OutputDataInversionMode": false
+          },
+          "services": []
+        },
+        {
+          "cfg_name": "cfg7",
+          "CRC_InitTypeDef": {
+            "DefaultPolynomialUse": false,
+            "DefaultInitValueUse": false,
+            "CRC_Polynomial": { "value": "0xFF", "size": 8 },
+            "InputDataFormat": "CRC_INPUTDATA_FORMAT_HALFWORDS",
+            "InitValue": 2147483647,
+            "InputDataInversionMode": "CRC_INPUTDATA_INVERSION_NONE",
+            "OutputDataInversionMode": true
+          },
+          "services": []
+        },
+        {
+          "cfg_name": "cfg8",
+          "CRC_InitTypeDef": {
+            "DefaultPolynomialUse": false,
+            "DefaultInitValueUse": false,
+            "CRC_Polynomial": { "value": "0x7F", "size": 7 },
+            "InputDataFormat": "CRC_INPUTDATA_FORMAT_WORDS",
+            "InitValue": 2147483647,
+            "InputDataInversionMode": "CRC_INPUTDATA_INVERSION_HALFWORD",
+            "OutputDataInversionMode": true
+          },
+          "services": []
+        },
+        {
+          "cfg_name": "cfg9",
+          "CRC_InitTypeDef": {
+            "DefaultPolynomialUse": false,
+            "DefaultInitValueUse": false,
+            "CRC_Polynomial": { "value": "0xFFFFFFFF", "size": 32 },
+            "InputDataFormat": "CRC_INPUTDATA_FORMAT_WORDS",
+            "InitValue": 0,
+            "InputDataInversionMode": "CRC_INPUTDATA_INVERSION_NONE",
+            "OutputDataInversionMode": false
+          },
+          "services": []
+        },
+        {
+          "cfg_name": "cfg10",
+          "CRC_InitTypeDef": {
+            "DefaultPolynomialUse": true,
+            "DefaultInitValueUse": false,
+            "CRC_Polynomial": { "value": "0xFFFF", "size": 16 },
+            "InputDataFormat": "CRC_INPUTDATA_FORMAT_HALFWORDS",
+            "InitValue": 0,
+            "InputDataInversionMode": "CRC_INPUTDATA_INVERSION_HALFWORD",
+            "OutputDataInversionMode": false
+          },
+          "services": []
+        },
+        {
+          "cfg_name": "cfg11",
+          "CRC_InitTypeDef": {
+            "DefaultPolynomialUse": false,
+            "DefaultInitValueUse": false,
+            "CRC_Polynomial": { "value": "0xFFFF", "size": 16 },
+            "InputDataFormat": "CRC_INPUTDATA_FORMAT_BYTES",
+            "InitValue": 2147483647,
+            "InputDataInversionMode": "CRC_INPUTDATA_INVERSION_BYTE",
+            "OutputDataInversionMode": true
+          },
+          "services": []
+        },
+        {
+          "cfg_name": "cfg12",
+          "CRC_InitTypeDef": {
+            "DefaultPolynomialUse": true,
+            "DefaultInitValueUse": false,
+            "CRC_Polynomial": { "value": "0xFF", "size": 8 },
+            "InputDataFormat": "CRC_INPUTDATA_FORMAT_BYTES",
+            "InitValue": 0,
+            "InputDataInversionMode": "CRC_INPUTDATA_INVERSION_BYTE",
+            "OutputDataInversionMode": false
+          },
+          "services": []
+        },
+        {
+          "cfg_name": "cfg13",
+          "CRC_InitTypeDef": {
+            "DefaultPolynomialUse": true,
+            "DefaultInitValueUse": false,
+            "CRC_Polynomial": { "value": "0xFFFF", "size": 16 },
+            "InputDataFormat": "CRC_INPUTDATA_FORMAT_BYTES",
+            "InitValue": 4294967295,
+            "InputDataInversionMode": "CRC_INPUTDATA_INVERSION_NONE",
+            "OutputDataInversionMode": true
+          },
+          "services": []
+        },
+        {
+          "cfg_name": "cfg14",
+          "CRC_InitTypeDef": {
+            "DefaultPolynomialUse": false,
+            "DefaultInitValueUse": true,
+            "CRC_Polynomial": { "value": "0x7F", "size": 7 },
+            "InputDataFormat": "CRC_INPUTDATA_FORMAT_BYTES",
+            "InputDataInversionMode": "CRC_INPUTDATA_INVERSION_NONE",
+            "OutputDataInversionMode": true
+          },
+          "services": []
+        },
+        {
+          "cfg_name": "cfg15",
+          "CRC_InitTypeDef": {
+            "DefaultPolynomialUse": true,
+            "DefaultInitValueUse": false,
+            "CRC_Polynomial": { "value": "0xFFFFFFFF", "size": 32 },
+            "InputDataFormat": "CRC_INPUTDATA_FORMAT_BYTES",
+            "InitValue": 2147483647,
+            "InputDataInversionMode": "CRC_INPUTDATA_INVERSION_WORD",
+            "OutputDataInversionMode": false
+          },
+          "services": []
+        },
+        {
+          "cfg_name": "cfg16",
+          "CRC_InitTypeDef": {
+            "DefaultPolynomialUse": true,
+            "DefaultInitValueUse": true,
+            "CRC_Polynomial": { "value": "0xFF", "size": 8 },
+            "InputDataFormat": "CRC_INPUTDATA_FORMAT_WORDS",
+            "InputDataInversionMode": "CRC_INPUTDATA_INVERSION_HALFWORD",
+            "OutputDataInversionMode": false
+          },
+          "services": []
+        },
+        {
+          "cfg_name": "cfg17",
+          "CRC_InitTypeDef": {
+            "DefaultPolynomialUse": true,
+            "DefaultInitValueUse": false,
+            "CRC_Polynomial": { "value": "0x7F", "size": 7 },
+            "InputDataFormat": "CRC_INPUTDATA_FORMAT_HALFWORDS",
+            "InitValue": 4294967295,
+            "InputDataInversionMode": "CRC_INPUTDATA_INVERSION_WORD",
+            "OutputDataInversionMode": false
+          },
+          "services": []
+        },
+        {
+          "cfg_name": "cfg18",
+          "CRC_InitTypeDef": {
+            "DefaultPolynomialUse": false,
+            "DefaultInitValueUse": true,
+            "InputDataFormat": "CRC_INPUTDATA_FORMAT_HALFWORDS",
+            "InputDataInversionMode": "CRC_INPUTDATA_INVERSION_BYTE",
+            "OutputDataInversionMode": true
+          },
+          "services": []
+        },
+        {
+          "cfg_name": "cfg19",
+          "CRC_InitTypeDef": {
+            "DefaultPolynomialUse": true,
+            "DefaultInitValueUse": false,
+            "CRC_Polynomial": { "value": "0xFF", "size": 8 },
+            "InputDataFormat": "CRC_INPUTDATA_FORMAT_WORDS",
+            "InitValue": 4294967295,
+            "InputDataInversionMode": "CRC_INPUTDATA_INVERSION_WORD",
+            "OutputDataInversionMode": false
+          },
+          "services": []
+        },
+        {
+          "cfg_name": "cfg20",
+          "CRC_InitTypeDef": {
+            "DefaultPolynomialUse": false,
+            "DefaultInitValueUse": true,
+            "CRC_Polynomial": { "value": "0xFFFFFFFF", "size": 32 },
+            "InputDataFormat": "CRC_INPUTDATA_FORMAT_WORDS",
+            "InputDataInversionMode": "CRC_INPUTDATA_INVERSION_HALFWORD",
+            "OutputDataInversionMode": false
+          },
+          "services": []
+        },
+        {
+          "cfg_name": "cfg21",
+          "CRC_InitTypeDef": {
+            "DefaultPolynomialUse": false,
+            "DefaultInitValueUse": false,
+            "CRC_Polynomial": { "value": "0x7F", "size": 7 },
+            "InputDataFormat": "CRC_INPUTDATA_FORMAT_WORDS",
+            "InitValue": 0,
+            "InputDataInversionMode": "CRC_INPUTDATA_INVERSION_WORD",
+            "OutputDataInversionMode": false
+          },
+          "services": []
+        },
+        {
+          "cfg_name": "cfg22",
+          "CRC_InitTypeDef": {
+            "DefaultPolynomialUse": true,
+            "DefaultInitValueUse": true,
+            "InputDataFormat": "CRC_INPUTDATA_FORMAT_WORDS",
+            "InputDataInversionMode": "CRC_INPUTDATA_INVERSION_WORD",
+            "OutputDataInversionMode": true
+          },
+          "services": []
+        },
+        {
+          "cfg_name": "cfg23",
+          "CRC_InitTypeDef": {
+            "DefaultPolynomialUse": false,
+            "DefaultInitValueUse": true,
+            "CRC_Polynomial": { "value": "0xFFFF", "size": 16 },
+            "InputDataFormat": "CRC_INPUTDATA_FORMAT_BYTES",
+            "InputDataInversionMode": "CRC_INPUTDATA_INVERSION_HALFWORD",
+            "OutputDataInversionMode": false
+          },
+          "services": []
+        },
+        {
+          "cfg_name": "cfg24",
+          "CRC_InitTypeDef": {
+            "DefaultPolynomialUse": false,
+            "DefaultInitValueUse": false,
+            "CRC_Polynomial": { "value": "0xFF", "size": 8 },
+            "InputDataFormat": "CRC_INPUTDATA_FORMAT_WORDS",
+            "InitValue": 4294967295,
+            "InputDataInversionMode": "CRC_INPUTDATA_INVERSION_HALFWORD",
+            "OutputDataInversionMode": true
+          },
+          "services": []
+        }
+      ],
+      "id": "::Device:STM32 HAL Code Gen:CRC Init",
+      "resource": "CRC"
+    },
+    "gpio": {
+      "id": "::Device:STM32 HAL Code Gen:GPIO Init",
+      "group": [
+        {
+          "name": "group1",
+          "infos": {
+            "generated": true,
+            "label": "gpio_runmode"
+          },
+          "gpio_list": [
+            {
+              "gpio": {
+                "name": "PA1",
+                "port": "GPIOA",
+                "pin": 1,
+                "low_power": true
+              },
+              "label": "gpio_button"
+            },
+            {
+              "gpio": {
+                "name": "PH9",
+                "port": "GPIOH",
+                "pin": 9,
+                "low_power": false
+              },
+              "label": "gpio_button"
+            },
+            {
+              "gpio": {
+                "name": "PH7",
+                "port": "GPIOH",
+                "pin": 7,
+                "low_power": false
+              },
+              "label": "gpio_button"
+            },
+            {
+              "gpio": {
+                "name": "PI12",
+                "port": "GPIOI",
+                "pin": 12,
+                "low_power": false
+              },
+              "label": "gpio_button"
+            }
+          ],
+          "configs": [
+            {
+              "cfg_name": "cfg1",
+              "gpio_list": [
+                {
+                  "GPIO_InitTypeDef": {
+                    "Mode": "INPUT",
+                    "Pull": "NOPULL"
+                  },
+                  "exti": false
+                },
+                {
+                  "GPIO_InitTypeDef": {
+                    "Mode": "OUTPUT_OD",
+                    "Speed": "FREQ_VERY_HIGH",
+                    "Pull": "PULLUP"
+                  },
+                  "exti": false
+                },
+                {
+                  "GPIO_InitTypeDef": {
+                    "Mode": "OUTPUT_OD",
+                    "Speed": "FREQ_VERY_HIGH",
+                    "Pull": "PULLUP"
+                  },
+                  "exti": false
+                },
+                {
+                  "GPIO_InitTypeDef": {
+                    "Mode": "OUTPUT_OD",
+                    "Speed": "FREQ_HIGH",
+                    "Pull": "NOPULL"
+                  },
+                  "exti": true,
+                  "exti_trigger": "RISING"
+                }
+              ]
+            },
+            {
+              "cfg_name": "cfg2",
+              "gpio_list": [
+                {
+                  "GPIO_InitTypeDef": {
+                    "Mode": "OUTPUT_PP",
+                    "Speed": "FREQ_LOW",
+                    "Pull": "PULLDOWN"
+                  },
+                  "exti": true,
+                  "exti_trigger": "FALLING"
+                },
+                {
+                  "GPIO_InitTypeDef": {
+                    "Mode": "OUTPUT_PP",
+                    "Speed": "FREQ_MEDIUM",
+                    "Pull": "NOPULL"
+                  },
+                  "exti": false
+                },
+                {
+                  "GPIO_InitTypeDef": {
+                    "Mode": "IT_FALLING",
+                    "Pull": "PULLUP"
+                  },
+                  "exti": false
+                },
+                {
+                  "GPIO_InitTypeDef": {
+                    "Mode": "OUTPUT_OD",
+                    "Speed": "FREQ_LOW",
+                    "Pull": "PULLUP"
+                  },
+                  "exti": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "group2",
+          "infos": {
+            "generated": false,
+            "label": "gpio_runmode2"
+          },
+          "gpio_list": [
+            {
+              "gpio": {
+                "name": "LI5",
+                "port": "GPIOI",
+                "pin": 5,
+                "low_power": false
+              }
+            },
+            {
+              "gpio": {
+                "name": "LB5",
+                "port": "GPIOB",
+                "pin": 5,
+                "low_power": false
+              }
+            },
+            {
+              "gpio": {
+                "name": "PD13",
+                "port": "GPIOD",
+                "pin": 13,
+                "low_power": true
+              }
+            },
+            {
+              "gpio": {
+                "name": "LF8",
+                "port": "GPIOF",
+                "pin": 8,
+                "low_power": false
+              }
+            },
+            {
+              "gpio": {
+                "name": "LE7",
+                "port": "GPIOE",
+                "pin": 7,
+                "low_power": false
+              }
+            },
+            {
+              "gpio": {
+                "name": "LF15",
+                "port": "GPIOF",
+                "pin": 15,
+                "low_power": false
+              }
+            }
+          ],
+          "configs": [
+            {
+              "cfg_name": "cfg3",
+              "gpio_list": [
+                {
+                  "GPIO_InitTypeDef": {
+                    "Mode": "OUTPUT_PP",
+                    "Speed": "FREQ_MEDIUM",
+                    "Pull": "PULLUP"
+                  },
+                  "exti": false
+                },
+                {
+                  "GPIO_InitTypeDef": {
+                    "Mode": "EVT_RISING",
+                    "Pull": "PULLDOWN"
+                  },
+                  "exti": false
+                },
+                {
+                  "GPIO_InitTypeDef": {
+                    "Mode": "OUTPUT_PP",
+                    "Speed": "FREQ_HIGH",
+                    "Pull": "NOPULL"
+                  },
+                  "exti": false
+                },
+                {
+                  "GPIO_InitTypeDef": {
+                    "Mode": "OUTPUT_PP",
+                    "Speed": "FREQ_VERY_HIGH",
+                    "Pull": "NOPULL"
+                  },
+                  "exti": false
+                },
+                {
+                  "GPIO_InitTypeDef": {
+                    "Mode": "ANALOG",
+                    "Pull": "PULLUP"
+                  },
+                  "exti": false
+                },
+                {
+                  "GPIO_InitTypeDef": {
+                    "Mode": "OUTPUT_OD",
+                    "Speed": "FREQ_HIGH",
+                    "Pull": "PULLDOWN"
+                  },
+                  "exti": false
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "resource": "GPIO"
+    }
+  },
+  "clock": [
+    {
+      "id": "HSI",
+      "value": "16000000",
+      "frequency": "16"
+    },
+    {
+      "id": "HSE",
+      "value": "16000000",
+      "frequency": "16"
+    },
+    {
+      "id": "USART1_Input_Clock",
+      "value": "4000000",
+      "frequency": "4"
+    }
+  ],
+  "pinout": [
+    {
+      "signals": [
+        {
+          "instance": "::Device:STM32U5xx HAL Code Gen:UART Init:instance#0",
+          "cfg_name": "",
+          "type": "external",
+          "name": "LPUART1_TX",
+          "pad": {
+            "port": "A",
+            "pin": 2
+          },
+          "function": {
+            "type": "alternate",
+            "id": "AF12"
+          }
+        },
+        {
+          "instance": "::Device:STM32U5xx HAL Code Gen:UART Init:instance#1",
+          "cfg_name": "",
+          "type": "external",
+          "name": "UART4_RX",
+          "pad": {
+            "port": "A",
+            "pin": 3
+          },
+          "function": {
+            "type": "alternate",
+            "id": "AF12"
+          }
+        },
+        {
+          "instance": "::Device:STM32U5xx HAL Code Gen:UART Init:instance#2",
+          "cfg_name": "",
+          "type": "external",
+          "name": "UART4_RX",
+          "pad": {
+            "port": "A",
+            "pin": 3
+          },
+          "function": {
+            "type": "alternate",
+            "id": "AF12"
+          }
+        },
+        {
+          "instance": "::Device:STM32U5xx HAL Code Gen:UART Init:instance#3",
+          "cfg_name": "",
+          "type": "external",
+          "name": "USART1_RX",
+          "pad": {
+            "port": "A",
+            "pin": 3
+          },
+          "function": {
+            "type": "alternate",
+            "id": "AF12"
+          }
+        }
+      ]
+    }
+  ],
+  "dma": ["TBD"]
+}
